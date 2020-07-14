@@ -1,0 +1,17 @@
+{
+  "name": "mern_fullstack_crypto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend/express  && node server.js\" \"cd client && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "file-saver": "^2.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
